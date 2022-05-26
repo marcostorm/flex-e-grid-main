@@ -43,6 +43,17 @@ body {
     display: none;
 }
 
+.detalhe__pico{
+    font-family: 'Open Sans', 'icones', sans-serif;
+    color: #FFFFFF;
+    text-align: justify;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 8px;
+    line-height: 1.8;
+}
+
 @media screen and (min-width: 1440px) {
     .cabecalho {
         background-color: #1D232A;
@@ -307,6 +318,7 @@ body {
     display: none;
 }
 
+
 @media screen and (min-width: 1440px) {
     .cartao--destaque {
         margin-bottom: 0;
@@ -410,3 +422,4 @@ body {
         grid-area: secao-produtos;
     }
 }
+
