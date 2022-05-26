@@ -46,12 +46,23 @@ body {
 .detalhe__pico{
     font-family: 'Open Sans', 'icones', sans-serif;
     color: #FFFFFF;
-    text-align: justify;
     padding: 16px;
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 8px;
-    line-height: 1.8;
+    line-height: 1.9;
+    text-align: justify;
+}
+
+.perfil__imagem::before{
+    content: "";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/profile_2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 @media screen and (min-width: 1440px) {
@@ -84,6 +95,7 @@ body {
         padding: 8px 32px;
         border-right: 1px solid #95999C;
     }
+
 
     .cabecalho__perfil::before {
         content: "";
@@ -196,6 +208,19 @@ body {
 .titulo-secao {
     font-size: 1.2rem;
     font-weight: 700;
+}
+
+.conteudo__pico{
+    padding: 16px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 8px;
+    align-items: center;
+}
+
+.perfil__autor{
+    display: flex;
+    flex-direction: row;
 }
 
 @media screen and (min-width: 1440px) {
